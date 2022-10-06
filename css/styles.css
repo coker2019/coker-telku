@@ -1,0 +1,59 @@
+
+#welcome-section {
+  padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  height: 100vh;
+  color: red;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(171, 122, 122);
+  height: 100px;
+  
+}
+@media screen and (max-width: 600px) {
+  nav a {
+    float: none;
+    width: 100%;
+  }
+}
+ nav a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+html,
+body {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-color: aqua;
+}
+
+nav ul li {
+  list-style: none;
+  text-align: center;
+  display: list-item;
+  float: right;
+
+}
+
+
+#projects {
+  text-align: center;
+}
+
+#profile-link {
+  display: inline-block;
+  overflow: hidden;
+  text-decoration: none;
+  margin: 50px;
+}
